@@ -41,7 +41,6 @@ public class LLamaSharpTestScript : MonoBehaviour
         var parameters = new ModelParams(Application.streamingAssetsPath + "/" + ModelPath)
         {
             ContextSize = 4096,
-            Seed = 1337,
             GpuLayerCount = 35
         };
         // Switch to the thread pool for long-running operations
@@ -94,7 +93,6 @@ public class LLamaSharpTestScript : MonoBehaviour
                     new ChatHistory.Message(AuthorRole.User, userMessage),
                     new InferenceParams()
                     {
-                        Temperature = 0.6f,
                         AntiPrompts = new List<string> { "User:" }
                     }
                 )
