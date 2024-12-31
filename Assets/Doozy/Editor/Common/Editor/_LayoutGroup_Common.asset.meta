@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 29d1594583f1f624a95cf410d06eb763
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Common/Editor/_LayoutGroup_Common.asset
+  uploadId: 605732

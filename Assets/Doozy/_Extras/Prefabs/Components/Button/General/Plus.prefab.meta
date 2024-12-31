@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fe99acadf6c6b0445a1522656b15da12
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/General/Plus.prefab
+  uploadId: 605732

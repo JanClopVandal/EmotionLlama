@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9df123a7efa58374da9a1665d9da67ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Button_Scale_19.asset
+  uploadId: 605732

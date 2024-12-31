@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f306f1c1b955d5c45b14794ff78efd2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_Shake_23.asset
+  uploadId: 605732

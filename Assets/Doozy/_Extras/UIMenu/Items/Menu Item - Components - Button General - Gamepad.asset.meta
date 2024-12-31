@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dde8db1aff9724b47a36bd13e9179bd4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/UIMenu/Items/Menu Item - Components - Button General
+    - Gamepad.asset
+  uploadId: 605732

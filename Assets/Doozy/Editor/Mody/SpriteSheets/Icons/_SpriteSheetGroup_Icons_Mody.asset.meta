@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: debd981bdf1d04d4690cbcdbf8678f32
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Mody/SpriteSheets/Icons/_SpriteSheetGroup_Icons_Mody.asset
+  uploadId: 605732

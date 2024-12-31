@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 95267dcd5bec6a64f974b2ba200fb5dd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Reset_Elastic_22.asset
+  uploadId: 605732

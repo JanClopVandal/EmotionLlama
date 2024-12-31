@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20dd5b31cc0383b41aa3b7b4eaafabc4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/General/Minus.prefab
+  uploadId: 605732

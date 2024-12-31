@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a7e55cdbbd53164681f4246aa0fd9cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Stepper/Basic/Simple Stepper
+    H.prefab
+  uploadId: 605732

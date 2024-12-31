@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9e5955b9ad7756b4085c4de7383f6526
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Reset_Slide_22.asset
+  uploadId: 605732

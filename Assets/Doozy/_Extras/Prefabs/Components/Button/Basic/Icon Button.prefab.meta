@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8ada2ddc0860c24fb48a724a6a12edf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/Basic/Icon Button.prefab
+  uploadId: 605732

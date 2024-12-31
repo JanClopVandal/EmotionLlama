@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d8b44d5990791b4390addc59c0ffe67
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/_Popups/UIPopup - Two Buttons Popup.asset
+  uploadId: 605732

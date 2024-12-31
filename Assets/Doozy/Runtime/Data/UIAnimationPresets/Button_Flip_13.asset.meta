@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c342bb0cf1e4384ebfac98a3605835f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Button_Flip_13.asset
+  uploadId: 605732

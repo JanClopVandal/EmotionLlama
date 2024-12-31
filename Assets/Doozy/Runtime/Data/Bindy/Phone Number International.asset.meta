@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d960785a9c1f5bc4faf3fb35f524e01e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/Phone Number International.asset
+  uploadId: 605732

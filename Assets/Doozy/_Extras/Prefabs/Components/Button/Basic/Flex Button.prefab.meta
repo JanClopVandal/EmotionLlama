@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74e2172c9ccb7cc428e7c5770fb8a63f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/Basic/Flex Button.prefab
+  uploadId: 605732

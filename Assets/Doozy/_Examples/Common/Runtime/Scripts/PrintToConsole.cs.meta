@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8b09bc9498a41bc44b4d4db9fca6e2f0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Examples/Common/Runtime/Scripts/PrintToConsole.cs
+  uploadId: 605732

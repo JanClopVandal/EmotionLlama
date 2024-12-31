@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47c246f78764a6046bfb9874bde9b81a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/State_Slide_07.asset
+  uploadId: 605732

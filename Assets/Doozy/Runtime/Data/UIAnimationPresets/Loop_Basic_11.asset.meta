@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 12ccd3f18570c47419cd53ebc2172e2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_Basic_11.asset
+  uploadId: 605732

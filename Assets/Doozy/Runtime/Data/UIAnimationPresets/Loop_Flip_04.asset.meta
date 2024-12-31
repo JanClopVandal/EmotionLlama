@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7557ee61ea3e481478aeda21ea14114f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_Flip_04.asset
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bcc7563c57c59de418f685de8af38ea8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Data/EditorDataFontDatabase.asset
+  uploadId: 605732

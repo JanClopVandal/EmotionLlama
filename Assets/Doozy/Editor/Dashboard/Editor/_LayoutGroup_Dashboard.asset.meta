@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cce92218f4354dd4b81a93a791648399
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Dashboard/Editor/_LayoutGroup_Dashboard.asset
+  uploadId: 605732

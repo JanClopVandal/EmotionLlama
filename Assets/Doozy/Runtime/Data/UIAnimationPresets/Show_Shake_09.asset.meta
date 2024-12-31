@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a94e5e61dbb80f4bbbc69a3cbdfdd04
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Shake_09.asset
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b327b5c9663e7dc439a8b862d01a3b14
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Examples/E02 - Reactor - Radial Menu (Landscape)/Prefabs/Ease
+    - Linear.prefab
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67d69301af526ff48b5b43765f92262e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_Organic_15.asset
+  uploadId: 605732

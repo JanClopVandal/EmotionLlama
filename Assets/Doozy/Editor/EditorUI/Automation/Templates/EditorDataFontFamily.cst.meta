@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 85fd3586db124110982eae3c6d239ffa
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/EditorUI/Automation/Templates/EditorDataFontFamily.cst
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3714cd1298f83804787ed1a549962f20
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Hide_Rotate_06.asset
+  uploadId: 605732

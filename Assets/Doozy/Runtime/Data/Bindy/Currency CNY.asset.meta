@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f866c6afe0fd814eb9461dcf49dd1f1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/Currency CNY.asset
+  uploadId: 605732

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 251b19786d7394740a6a48e3363901ed
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_ReactorExamples/Prefabs/ReactorExampleBackground.prefab
+  uploadId: 605732

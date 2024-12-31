@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9bc0da1da109a1744a50302df67fa891
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Nody/Nodes/ApplicationQuitNodeEditor.cs
+  uploadId: 605732

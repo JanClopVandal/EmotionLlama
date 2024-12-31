@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ce21000942858541b809ffb8a14f4ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Reset_Motion_12.asset
+  uploadId: 605732

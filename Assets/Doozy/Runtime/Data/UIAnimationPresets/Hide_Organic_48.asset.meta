@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abd64bcf8024f924595f8871491d873d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Hide_Organic_48.asset
+  uploadId: 605732

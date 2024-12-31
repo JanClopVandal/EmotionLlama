@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 00ce1f20d293f0c4bb737eccf12d288f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Gradual_03.asset
+  uploadId: 605732

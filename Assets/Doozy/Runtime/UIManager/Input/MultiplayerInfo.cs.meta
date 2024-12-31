@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 21831f9a7c564724914ad2eee9ba1d9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 3236d61f301c9e24db27003a242ad5d9, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/UIManager/Input/MultiplayerInfo.cs
+  uploadId: 605732

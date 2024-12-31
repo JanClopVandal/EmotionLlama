@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32cc7b0682f8d0349afaf97df07f6986
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Signals/Images/Icons/_TextureGroup_Icons_Signals.asset
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 84fc360190e2bfd4389f0da46e32e834
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Jelly_07.asset
+  uploadId: 605732

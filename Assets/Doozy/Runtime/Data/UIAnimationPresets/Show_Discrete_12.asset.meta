@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b1835344d5f14cc4ea7abbf14c9cb726
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Discrete_12.asset
+  uploadId: 605732

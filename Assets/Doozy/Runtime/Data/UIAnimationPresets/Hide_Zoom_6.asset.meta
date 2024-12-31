@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0a2480c64887e148b3418a2b6a4dff0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Hide_Zoom_6.asset
+  uploadId: 605732

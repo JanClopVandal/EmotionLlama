@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37e446c4e7c93484a9a3c842e5911c7c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/RectToFloat y.asset
+  uploadId: 605732

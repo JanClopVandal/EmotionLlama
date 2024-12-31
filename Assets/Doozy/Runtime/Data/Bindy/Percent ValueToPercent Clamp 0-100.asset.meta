@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e806124ee606db4fa3c765b8da077fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/Percent ValueToPercent Clamp 0-100.asset
+  uploadId: 605732

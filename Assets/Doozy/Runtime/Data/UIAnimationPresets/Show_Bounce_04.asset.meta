@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd6ac8599dde8f44d9af86d6e1fe5c49
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Bounce_04.asset
+  uploadId: 605732

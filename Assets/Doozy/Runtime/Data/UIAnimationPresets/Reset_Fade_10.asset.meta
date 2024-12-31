@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 05b5acf6724a66f4887f52dda1d90176
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Reset_Fade_10.asset
+  uploadId: 605732

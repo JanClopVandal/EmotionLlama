@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b1f6abbfa8ffbd42a8a22a2a1af04d5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Drop_02.asset
+  uploadId: 605732

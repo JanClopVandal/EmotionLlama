@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 32c8a2144084a414cb7821709ac1b94f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/Direction/Arrow Left.prefab
+  uploadId: 605732

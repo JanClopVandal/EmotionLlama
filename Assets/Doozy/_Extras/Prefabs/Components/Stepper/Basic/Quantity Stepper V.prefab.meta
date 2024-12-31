@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b9029b108e00f3c41828f570039a5d3d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Stepper/Basic/Quantity Stepper
+    V.prefab
+  uploadId: 605732

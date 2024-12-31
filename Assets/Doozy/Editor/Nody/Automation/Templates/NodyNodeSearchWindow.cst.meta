@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 743624d18636d5247bde84fda2003ef4
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Nody/Automation/Templates/NodyNodeSearchWindow.cst
+  uploadId: 605732

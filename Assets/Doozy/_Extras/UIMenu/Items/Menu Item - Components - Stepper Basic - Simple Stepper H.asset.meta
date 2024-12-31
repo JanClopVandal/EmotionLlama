@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2a4f67bed22e734cb2b0d89883f1f72
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/UIMenu/Items/Menu Item - Components - Stepper Basic
+    - Simple Stepper H.asset
+  uploadId: 605732

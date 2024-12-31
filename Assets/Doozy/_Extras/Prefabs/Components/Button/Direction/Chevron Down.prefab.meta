@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc40ef660bd4e244eab07952851969b4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/Direction/Chevron Down.prefab
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca5d0a55bda44da40babcd953c992197
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/State_Basic_03.asset
+  uploadId: 605732

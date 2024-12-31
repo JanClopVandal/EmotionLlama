@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: afa21c51de67e7343a8231ecb6ca16a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/Percent ValueToPercent Symbol.asset
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c74d8b508337b1a4f94b57e76d61e4d5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/State_Twist_11.asset
+  uploadId: 605732

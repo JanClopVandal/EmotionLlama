@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 289ee3a3f637b3e49a20995a40a04b9c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Toggle/Radio/Radio.prefab
+  uploadId: 605732

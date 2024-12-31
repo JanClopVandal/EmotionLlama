@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 419eb93640cdeeb46afd225492db7ced
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/Media/Repeat.prefab
+  uploadId: 605732

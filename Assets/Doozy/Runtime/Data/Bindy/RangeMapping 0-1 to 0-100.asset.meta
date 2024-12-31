@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8093ea5912a317e4582d924118fdb868
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/RangeMapping 0-1 to 0-100.asset
+  uploadId: 605732

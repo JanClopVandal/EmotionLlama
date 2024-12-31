@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 82c37ce19c43d854c91c2edc05ca4164
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/Direction/Arrow Down.prefab
+  uploadId: 605732

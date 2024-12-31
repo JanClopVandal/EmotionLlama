@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5804caeeb13820f42a01c1b1c3718e4d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_Wobbly_14.asset
+  uploadId: 605732

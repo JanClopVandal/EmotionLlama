@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c11dd9f49d1c2444bc72051736df7bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/UIManager/Images/UIMenu/_TextureGroup_UIMenu_UIMenuIcons.asset
+  uploadId: 605732

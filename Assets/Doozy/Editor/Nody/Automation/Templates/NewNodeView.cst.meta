@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5fee7707f2d809459f4928fa09643e1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Nody/Automation/Templates/NewNodeView.cst
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ed6ab437f51485d4e8fe55b6d33bffa4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Button_Fade_24.asset
+  uploadId: 605732

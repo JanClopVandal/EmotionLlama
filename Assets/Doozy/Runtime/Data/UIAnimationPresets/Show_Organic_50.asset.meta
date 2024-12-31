@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9dd1b8e1b09b1004fa0366a885a4e1fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Show_Organic_50.asset
+  uploadId: 605732

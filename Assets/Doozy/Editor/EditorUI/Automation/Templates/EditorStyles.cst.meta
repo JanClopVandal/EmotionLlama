@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74b8c0f5b1b1424e8d67e5b80e5d6f7f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/EditorUI/Automation/Templates/EditorStyles.cst
+  uploadId: 605732

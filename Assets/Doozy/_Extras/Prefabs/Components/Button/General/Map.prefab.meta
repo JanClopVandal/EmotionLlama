@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 66e14a97eb40d674ea876f4da85f3aad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/General/Map.prefab
+  uploadId: 605732

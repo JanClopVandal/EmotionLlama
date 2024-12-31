@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 457a2a1e082826a4899595a87dbbd6b9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/StringToColor.asset
+  uploadId: 605732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9d2521ff0dbf3841adf70607d148dcd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_HeartBeat_13.asset
+  uploadId: 605732

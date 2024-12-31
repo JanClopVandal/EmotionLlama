@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c1931d1b52df7d4ba167bf7e4bc9db9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/Bindy/Vector3 display x.asset
+  uploadId: 605732

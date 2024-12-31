@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8b335a241f1c4e5da5d7c02f44f53bd5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: b9baadf8cb063754e9cb42c11ea8b943, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/UIManager/Input/InputToSignal.cs
+  uploadId: 605732

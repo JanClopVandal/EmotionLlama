@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7988ca6d922b0834882796be97899174
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/General/Close XMark.prefab
+  uploadId: 605732

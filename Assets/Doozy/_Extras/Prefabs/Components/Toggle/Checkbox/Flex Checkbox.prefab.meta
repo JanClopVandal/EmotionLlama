@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c41ffb4863ff674c843b5784421392c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Toggle/Checkbox/Flex Checkbox.prefab
+  uploadId: 605732

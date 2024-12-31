@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6cda8f879189d24dbde39b29bbc49d0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/Mody/Colors/_ColorPalette_Mody.asset
+  uploadId: 605732

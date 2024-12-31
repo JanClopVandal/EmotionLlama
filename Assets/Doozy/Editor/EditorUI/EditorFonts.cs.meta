@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0281f7bcd46a4c1993cd03ee33b4dc61
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/EditorUI/EditorFonts.cs
+  uploadId: 605732

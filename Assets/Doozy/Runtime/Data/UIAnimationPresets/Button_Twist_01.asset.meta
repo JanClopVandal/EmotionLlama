@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9fb9dda634a68cb4d8911e3731e74886
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Button_Twist_01.asset
+  uploadId: 605732

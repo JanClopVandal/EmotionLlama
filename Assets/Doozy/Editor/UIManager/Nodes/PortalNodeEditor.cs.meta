@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9015d77b5b379f1419acc0e256d95fdb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/UIManager/Nodes/PortalNodeEditor.cs
+  uploadId: 605732

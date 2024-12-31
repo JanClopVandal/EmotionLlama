@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33d764b9a50d25e47bfaf79fe4c58d81
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Reset_Organic_25.asset
+  uploadId: 605732

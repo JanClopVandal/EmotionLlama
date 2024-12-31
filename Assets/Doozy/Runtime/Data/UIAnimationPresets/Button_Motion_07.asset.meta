@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e95ac2a3b5e9d1a4e80aa845e5644416
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Button_Motion_07.asset
+  uploadId: 605732

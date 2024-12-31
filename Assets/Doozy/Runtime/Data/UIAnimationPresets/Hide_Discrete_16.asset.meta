@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8282ea7fac2d85e4caaad79f73907c0b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Hide_Discrete_16.asset
+  uploadId: 605732

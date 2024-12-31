@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb8d0484828d8ae4697786c3e2cc8c93
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Stepper/Basic/Flex Stepper V.prefab
+  uploadId: 605732

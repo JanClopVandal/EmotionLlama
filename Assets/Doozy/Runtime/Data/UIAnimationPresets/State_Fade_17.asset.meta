@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e7f8d27e3645522458d0c65b63173e2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/State_Fade_17.asset
+  uploadId: 605732

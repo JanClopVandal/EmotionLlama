@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 059fc51fefee87b40876dc8519fae455
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Examples/E10 - Tooltip - Follow Pointer/E10 - Tooltip
+    - Follow Pointer.unity
+  uploadId: 605732

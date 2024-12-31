@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf69931e2a32cf9488e27da325d7f89f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Loop_Vibrate_13.asset
+  uploadId: 605732

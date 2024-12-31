@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f043c874dae56fa47a97a10f4efdd44b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/_Extras/Prefabs/Components/Button/General/Redo.prefab
+  uploadId: 605732

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 35ca1322e9e567644b0729e88c858878
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 1d981fb87e4c8c04a8e67bd0ddc47390, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Nody/Nodes/TimeScaleNode.cs
+  uploadId: 605732

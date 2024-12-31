@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0826f4e6e12145f4b840b4f10c07c3bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/Data/UIAnimationPresets/Hide_Shake_10.asset
+  uploadId: 605732

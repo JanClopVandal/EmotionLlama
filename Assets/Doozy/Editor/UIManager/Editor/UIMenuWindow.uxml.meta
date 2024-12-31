@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5293d76f5f1057843ba23093eac21534
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 13804, guid: 0000000000000000e000000000000000, type: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/UIManager/Editor/UIMenuWindow.uxml
+  uploadId: 605732

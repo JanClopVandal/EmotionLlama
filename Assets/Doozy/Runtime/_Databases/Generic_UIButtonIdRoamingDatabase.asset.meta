@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c19a8deaeecb5f24699f47e52d8435fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Runtime/_Databases/Generic_UIButtonIdRoamingDatabase.asset
+  uploadId: 605732

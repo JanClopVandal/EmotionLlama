@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bde197787e4d6b540b2dc65bfde5f497
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249738
+  packageName: Doozy UI Manager
+  packageVersion: 2023.1.2
+  assetPath: Assets/Doozy/Editor/EditorUI/Images/Logos/_TextureGroup_Logos_EditorUI.asset
+  uploadId: 605732
