@@ -26,8 +26,11 @@ namespace Doozy.Runtime.UIManager
     {
         public enum MainPages
         {
+            Info,
             Level01,
-            MainScreen
+            Level02,
+            MainScreen,
+            ScoreBoard
         }    
     }
 }

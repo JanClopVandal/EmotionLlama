@@ -18,3 +18,9 @@ MonoBehaviour:
       Name: None
     - Category: UiController
       Name: NextLevel
+    - Category: UiController
+      Name: OpenInfo
+    - Category: UiController
+      Name: OpenMenu
+    - Category: UiController
+      Name: OpenScoreboard

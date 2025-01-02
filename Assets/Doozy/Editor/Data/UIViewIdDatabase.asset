@@ -15,8 +15,14 @@ MonoBehaviour:
   Database:
     Items:
     - Category: MainPages
+      Name: Info
+    - Category: MainPages
       Name: Level01
     - Category: MainPages
+      Name: Level02
+    - Category: MainPages
       Name: MainScreen
+    - Category: MainPages
+      Name: ScoreBoard
     - Category: None
       Name: None

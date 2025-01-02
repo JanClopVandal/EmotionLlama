@@ -7,17 +7,21 @@ using TMPro;
 using UnityEngine.UI;
 using System.Threading;
 using static LLama.StatefulExecutorBase;
+using static UnityEditor.Rendering.CameraUI;
+using System;
+using UnityEngine.Events;
 
-public class LLamaSharpTestScript : MonoBehaviour
+public class LLamaSharpController : MonoBehaviour, IController
 {
     public string ModelPath = "models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"; // change it to your own model path
     [TextArea(3, 10)]
-    public string SystemPrompt = "Transcript of a dialog, where the User interacts with an Assistant named Bob. Bob is helpful, kind, honest, good at writing, and never fails to answer the User's requests immediately and with precision.\r\n\r\nUser: Hello, Bob.\r\nBob: Hello. How may I help you today?\r\nUser: Please tell me the best city in Europe.\r\nBob: Sure. The best city in Europe is Kyiv, the capital of Ukraine.\r\nUser:";
+    public string SystemPrompt;
     public TMP_Text Output;
     public TMP_Text OutputToken;
-    public TMP_InputField Input;
+    //public TMP_InputField Input;
     public TMP_Dropdown SessionSelector;
-    public Button Submit;
+    public InputController inputController;
+    //public Button Submit;
 
     public VFXController vFXController;
 
@@ -28,15 +32,18 @@ public class LLamaSharpTestScript : MonoBehaviour
 
     private string _submittedText = "";
     private CancellationTokenSource _cts;
+    public void Init() { }
+
+    public UnityEvent<Emotion> onNewEmotion;
 
     async UniTaskVoid Start()
     {
         _cts = new CancellationTokenSource();
         SetInteractable(false);
-        Submit.onClick.AddListener(() =>
+        inputController.onEnterPressed.AddListener(() =>
         {
-            _submittedText = Input.text;
-            Input.text = "";
+            _submittedText = inputController.userText;
+            inputController.RefreshField();
         });
         Output.text = "User: ";
         // Load a model
@@ -69,7 +76,7 @@ public class LLamaSharpTestScript : MonoBehaviour
         _activeSession = 0;
         // run the inference in a loop to chat with LLM
         await ChatRoutine(_cts.Token);
-        Submit.onClick.RemoveAllListeners();
+        
     }
 
     /// <summary>
@@ -87,6 +94,7 @@ public class LLamaSharpTestScript : MonoBehaviour
             // Allow input and wait for the user to submit a message or switch the session
             SetInteractable(true);
             await UniTask.WaitUntil(() => _submittedText != "");
+            Output.text = "";
             tokenText = "";
             userMessage = _submittedText;
             _submittedText = "";
@@ -110,8 +118,8 @@ public class LLamaSharpTestScript : MonoBehaviour
                 
                 await UniTask.NextFrame();
             }
-            vFXController.AnswerToColor(tokenText);
-            OutputToken.text = tokenText;
+            //vFXController.AnswerToColor(tokenText);
+            SetEmotionFromText(tokenText);
         }
         
     }
@@ -194,8 +202,44 @@ public class LLamaSharpTestScript : MonoBehaviour
     /// <param name="interactable"></param>
     private void SetInteractable(bool interactable)
     {
-        Submit.interactable = interactable;
-        Input.interactable = interactable;
-        SessionSelector.interactable = interactable;
+        //Submit.interactable = interactable;
+        inputController.ChangeInteractive(interactable);
+        //SessionSelector.interactable = interactable;
     }
+
+    private void SetEmotionFromText(string text)
+    {
+        string lowerCaseText = text.ToLower();
+
+
+        foreach (Emotion emotion in Enum.GetValues(typeof(Emotion)))
+        {
+            
+            if (lowerCaseText.Contains(emotion.ToString().ToLower()))
+            {
+                onNewEmotion.Invoke(emotion); ;
+            }
+        }
+
+    }
+}
+
+
+public enum Emotion
+{
+    Compassion,
+    Joy,
+    Love,
+    Inspiration,
+    Respect,
+    Anger,
+    Hatred,
+    Sadness,
+    Envy,
+    Fear,
+    Surprise,
+    Calmness,
+    Doubt,
+    Interest,
+    Anticipation
 }

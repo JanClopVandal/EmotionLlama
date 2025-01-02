@@ -17,4 +17,6 @@ MonoBehaviour:
     - Category: None
       Name: None
     - Category: UiController
+      Name: Info
+    - Category: UiController
       Name: NextPage
