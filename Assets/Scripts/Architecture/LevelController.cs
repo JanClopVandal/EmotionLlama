@@ -6,6 +6,7 @@ using System.Linq;
 using System.Collections;
 using UnityEngine.Events;
 using System;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class LevelController : MonoBehaviour, IController
 {
@@ -15,6 +16,7 @@ public class LevelController : MonoBehaviour, IController
     private LevelSettings prevLevel;
 
     private LLamaSharpController lLamaSharpController;
+    private int score;
     public void Init() {
 
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
@@ -25,14 +27,27 @@ public class LevelController : MonoBehaviour, IController
 
     public void SetNewEmotion(Emotion emotion)
     {
-        Debug.Log(emotion);
+        if (emotion == currentLevel.levelEmotion)
+        {
+            score += 1;
+            if(score >= currentLevel.winScore)
+            {
+                score = 0;
+                return;
+            }
+            currentLevel.sceneViewer.Interact(score);
+        }
+
+
     }
+ 
+
+
     public void ChangeScreenState(int index)
     {
         ScreenState state = (ScreenState)index;
         ChangeScreenState(state);
     }
-        
     public void ChangeScreenState(ScreenState newState)
     {
         if(currentLevel !=null) 
@@ -47,7 +62,7 @@ public class LevelController : MonoBehaviour, IController
         
         currentLevel.sceneViewer = currentLevel.sceneObject.GetComponent<SceneViewer>();
 
-        
+        score = 0;
         StartCoroutine(animateScreenState());
         
     }

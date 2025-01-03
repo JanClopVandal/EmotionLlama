@@ -9,9 +9,12 @@ public class SceneViewer : MonoBehaviour
 
     [SerializeField] private AppearanceType appearanceType;
     [SerializeField] private Animator animator;
-    
+
+    public UnityEvent onAnimEnd;
     public UnityEvent onShowEnd;
     public UnityEvent onHideEnd;
+
+
 
     public virtual void Show()
     {
@@ -47,8 +50,25 @@ public class SceneViewer : MonoBehaviour
 
     }
 
+    public void Interact(int numState)
+    {
+        switch (appearanceType)
+        {
+            case AppearanceType.Animation:
+                PlayAnimation("Show", onAnimEnd);
+                break;
+            case AppearanceType.Custom:
+                
+                break;
 
-    public void PlayAnimation(string triggerName, UnityEvent onAnimationEnd)
+        }
+    }
+
+    public void PlayAnimation(string triggerName)
+    {
+        PlayAnimation(triggerName, null);
+    }
+    private void PlayAnimation(string triggerName, UnityEvent onAnimationEnd)
     {
         if (animator == null || string.IsNullOrEmpty(triggerName))
         {

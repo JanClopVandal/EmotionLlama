@@ -17,5 +17,5 @@ MonoBehaviour:
   sceneObject: {fileID: 0}
   sceneViewer: {fileID: 0}
   interative: 1
-  levelEmotion: 0
-  winScore: 0
+  levelEmotion: 5
+  winScore: 4
