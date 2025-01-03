@@ -2659,6 +2659,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ccaeac7604a8524e9fe98684c51d280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  appearanceType: 3
+  animator: {fileID: 0}
   onShowEnd:
     m_PersistentCalls:
       m_Calls: []

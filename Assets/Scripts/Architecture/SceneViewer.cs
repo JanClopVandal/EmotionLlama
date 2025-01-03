@@ -20,7 +20,13 @@ public class SceneViewer : MonoBehaviour
             case AppearanceType.Animation:
                 PlayAnimation("Show", onShowEnd);
                 break;
-                
+            case AppearanceType.Custom:
+                onShowEnd?.Invoke();
+                break;
+
+
+
+
         }
 
     }
@@ -31,6 +37,9 @@ public class SceneViewer : MonoBehaviour
         {
             case AppearanceType.Animation:
                 PlayAnimation("Hide", onHideEnd);
+                break;
+            case AppearanceType.Custom:
+                onHideEnd?.Invoke();
                 break;
 
         }
@@ -69,5 +78,5 @@ public class SceneViewer : MonoBehaviour
 
 enum AppearanceType
 {
-    Animation, DoTween, VFX
+    Animation, DoTween, VFX,Custom
 }
