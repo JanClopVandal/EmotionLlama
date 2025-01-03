@@ -7417,12 +7417,6 @@ MonoBehaviour:
     Runners: []
     Event:
       m_PersistentCalls:
-        m_Calls: []
-  OnVisibleCallback:
-    EventName: OnVisibleCallback
-    Runners: []
-    Event:
-      m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 710949653}
           m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
@@ -7436,6 +7430,12 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  OnVisibleCallback:
+    EventName: OnVisibleCallback
+    Runners: []
+    Event:
+      m_PersistentCalls:
+        m_Calls: []
   OnHideCallback:
     EventName: OnHideCallback
     Runners: []
@@ -7963,45 +7963,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ModelPath: Llama-3.2-1B-Instruct-Q8_0.gguf
-  SystemPrompt: 'You are an emotion analyzer. Your task is to analyze each user''s
-    message and determine the dominant emotion it conveys from the following list:
-
-
-
-    Compassion
-
-    Joy
-
-    Love
-
-    Inspiration
-
-    Respect
-
-    Anger
-
-    Hatred
-
-    Sadness
-
-    Envy
-
-    Fear
-
-    Surprise
-
-    Calmness
-
-    Doubt
-
-    Interest
-
-    Anticipation
-
-    After
-    analyzing the message, respond with only one word, which is the name of the dominant
-    emotion from the list above. Do not add any other explanation, sentence, or word.
-    Your output must strictly be one of the emotions listed.'
+  SystemPrompt: "You are an emotion analyzer. Your task is to analyze each user's
+    message and determine the dominant emotion it conveys from the following list:\r\n\r\n-
+    Compassion  \r\n- Joy  \r\n- Love  \r\n- Inspiration  \r\n- Respect  \r\n- Anger 
+    \r\n- Hatred  \r\n- Sadness  \r\n- Envy  \r\n- Fear  \r\n- Surprise  \r\n- Calmness 
+    \r\n- Doubt  \r\n- Interest  \r\n- Anticipation  \r\n\r\nAfter analyzing the
+    message, respond with only one word, which is the name of the dominant emotion
+    from the list above. Do not add any other explanation, sentence, or word. Your
+    output must strictly be one of the emotions listed.\r\n\r\nDo not include any
+    prefixes, suffixes, or extra text such as \"User:\" or \"Response:\". Only output
+    the selected emotion."
   Output: {fileID: 19410020}
   OutputToken: {fileID: 0}
   SessionSelector: {fileID: 1244682333}

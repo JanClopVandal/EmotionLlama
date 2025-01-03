@@ -107,7 +107,7 @@ public class LLamaSharpController : MonoBehaviour, IController
                     new InferenceParams()
                     {
                         
-                        AntiPrompts = new List<string> { "User:" }
+                        AntiPrompts = new List<string> { "User:" , "\nUser:", "\n\nUser:" }
                     }
                 )
             ))
