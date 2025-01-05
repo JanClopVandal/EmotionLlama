@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3cbe1929280364419e9fff898b73f76
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/External/Common/Beans.Unity.Editor/Editor/Beans.Unity.Editor.asmdef
+  uploadId: 697984

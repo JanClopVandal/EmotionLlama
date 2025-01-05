@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d0d51f534bf242d6bbaa39e929a52cf5
+timeCreated: 1613253086
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/DeformUnityObjectSelection.cs
+  uploadId: 697984

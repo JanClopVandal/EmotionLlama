@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 495e43d5f3429c847a01d6309186e27a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Core/Interfaces/IDeformable.cs
+  uploadId: 697984

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a0964dac71e47e04796f03c63f3bf046
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/External/Common/Beans.Unity.Mathematics/Beans.Unity.Mathematics.asmdef
+  uploadId: 697984

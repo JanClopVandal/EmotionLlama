@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 712fd566a2714796808abe8a1ff4681d
+timeCreated: 1613924572
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/DeformEditorSettingsAssetInspector.cs
+  uploadId: 697984

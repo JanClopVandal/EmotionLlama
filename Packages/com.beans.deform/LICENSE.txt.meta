@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3588e2cd9e0ee7499aa51db63ca3c4f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/LICENSE.txt
+  uploadId: 697984

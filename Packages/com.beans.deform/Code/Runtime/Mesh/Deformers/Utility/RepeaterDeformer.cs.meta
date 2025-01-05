@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: da4bbab8a8312b24aa890edd99475a48
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Mesh/Deformers/Utility/RepeaterDeformer.cs
+  uploadId: 697984

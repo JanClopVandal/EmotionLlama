@@ -11,6 +11,8 @@ public class LevelSettings : ScriptableObject
     public bool interative;
     public Emotion levelEmotion;
     public int winScore;
+    public string uiElementName;
+    public GameObject uiElement;
 
 
 }

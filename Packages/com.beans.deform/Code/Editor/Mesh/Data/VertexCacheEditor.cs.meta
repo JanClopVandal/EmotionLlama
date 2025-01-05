@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1917b9cad20a82458917dfb09d51f08
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/Mesh/Data/VertexCacheEditor.cs
+  uploadId: 697984

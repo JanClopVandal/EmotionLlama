@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 458db85642e33fe488853d3393b4a919
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/Mesh/Deformers/CylindrifyDeformerEditor.cs
+  uploadId: 697984

@@ -4,10 +4,8 @@ using LLama;
 using LLama.Common;
 using Cysharp.Threading.Tasks;
 using TMPro;
-using UnityEngine.UI;
 using System.Threading;
 using static LLama.StatefulExecutorBase;
-using static UnityEditor.Rendering.CameraUI;
 using System;
 using UnityEngine.Events;
 

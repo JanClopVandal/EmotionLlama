@@ -1,26 +1,32 @@
-using NUnit.Framework;
-using System.Net.Http;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 using UnityEngine.Events;
-using System;
-using UnityEngine.SocialPlatforms.Impl;
+using Doozy.Runtime.Common.Extensions;
+using UnityEngine.UI;
+using Doozy.Runtime;
+using Doozy.Runtime.Signals;
 
 public class LevelController : MonoBehaviour, IController
 {
     [SerializeField] private List<LevelSettings> levelSettings;
     [SerializeField] private Transform parentSceneObject;
+    //[SerializeField] private Slider slider;
+
     private LevelSettings currentLevel;
     private LevelSettings prevLevel;
 
     private LLamaSharpController lLamaSharpController;
     private int score;
+
+    
     public void Init() {
 
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
         lLamaSharpController.onNewEmotion.AddListener(SetNewEmotion);
+
+
 
     }
 
@@ -33,9 +39,18 @@ public class LevelController : MonoBehaviour, IController
             if(score >= currentLevel.winScore)
             {
                 score = 0;
+                SignalStream.Get("UiController", "NextLevel").SendSignal();
                 return;
             }
             currentLevel.sceneViewer.Interact(score);
+            if (currentLevel.uiElement != null)
+            {
+                var slider = currentLevel.uiElement.GetComponent<Slider>();
+               
+                slider.value = (float)score / ((float)currentLevel.winScore-1f);
+               
+            }
+            
         }
 
 
@@ -61,6 +76,10 @@ public class LevelController : MonoBehaviour, IController
         currentLevel.sceneObject.transform.localScale = Vector3.one;
         
         currentLevel.sceneViewer = currentLevel.sceneObject.GetComponent<SceneViewer>();
+        if (!currentLevel.uiElementName.IsNull())
+        {
+            currentLevel.uiElement = GameObject.Find(currentLevel.uiElementName);
+        }
 
         score = 0;
         StartCoroutine(animateScreenState());

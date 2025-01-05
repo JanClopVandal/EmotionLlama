@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4de8639d1a5298a4c8713328aff7a113
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Mesh/Utility/Jobs/CopyFloat3sJob.cs
+  uploadId: 697984

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f0a8becc7558d75489eaf29021eaecb6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/Mesh/Deformers/StarDeformerEditor.cs
+  uploadId: 697984

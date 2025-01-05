@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 332c056e325c83b4b8305aeb266cdc36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Enums/UpdateMode.cs
+  uploadId: 697984

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: aa35ed041c8f3674c8bc6445c42d3829
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/External/Common/Beans.Unity.Editor/Editor/EditorGUIUtilityx.cs
+  uploadId: 697984

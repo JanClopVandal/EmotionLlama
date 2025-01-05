@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8236330f25974322b113beffd4d8fe78
+timeCreated: 1613930615
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Data/CollapsibleSection.cs
+  uploadId: 697984

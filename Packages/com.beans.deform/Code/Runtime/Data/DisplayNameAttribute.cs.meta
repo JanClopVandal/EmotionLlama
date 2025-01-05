@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f7cce35f6049454fa51eaa2f33f53d9d
+timeCreated: 1613924236
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Data/DisplayNameAttribute.cs
+  uploadId: 697984

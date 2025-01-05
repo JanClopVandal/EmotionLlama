@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf968d570f773094e8ac2cd0dd333591
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/package.json
+  uploadId: 697984

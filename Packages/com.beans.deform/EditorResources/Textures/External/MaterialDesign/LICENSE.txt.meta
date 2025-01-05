@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0dab79fbeefa31f42b766a4bb9c81892
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/EditorResources/Textures/External/MaterialDesign/LICENSE.txt
+  uploadId: 697984

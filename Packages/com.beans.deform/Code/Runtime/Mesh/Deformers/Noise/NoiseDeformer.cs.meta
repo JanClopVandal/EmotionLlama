@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 19e6b07966ed66543b626a297452e4cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Mesh/Deformers/Noise/NoiseDeformer.cs
+  uploadId: 697984

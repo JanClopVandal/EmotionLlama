@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6d25f77772eaf6c40a2f57768ad9bf62
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Mesh/Deformers/Masking/MaskState.cs
+  uploadId: 697984

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b1974a47593151f43bdfa38ca88aa3ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/Mesh/Deformers/Noise/SimplexNoiseDeformerEditor.cs
+  uploadId: 697984

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0c9a4c9523ee24146ac226c166b1b065
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/Mesh/Deformers/UVOffsetDeformerEditor.cs
+  uploadId: 697984

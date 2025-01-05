@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 71d700410365435b8cf0325a29250c71
+timeCreated: 1613924302
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/PropertyDrawers/DisplayNameDrawer.cs
+  uploadId: 697984

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ede7a7f33f3324240b48da164bd0cdae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Runtime/Mesh/Utility/Jobs/TransformPointsJob.cs
+  uploadId: 697984

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8c592b547d084b92a5afccad88e33274
+timeCreated: 1613922158
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148425
+  packageName: Deform
+  packageVersion: 1.2.2
+  assetPath: Packages/com.beans.deform/Code/Editor/DeformBuildPostProcessor.cs
+  uploadId: 697984
