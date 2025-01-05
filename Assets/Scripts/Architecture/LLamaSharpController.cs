@@ -18,7 +18,7 @@ public class LLamaSharpController : MonoBehaviour, IController
     public TMP_Text OutputToken;
     //public TMP_InputField Input;
     public TMP_Dropdown SessionSelector;
-    public InputController inputController;
+    //public InputController inputController;
     //public Button Submit;
 
     public VFXController vFXController;
@@ -28,21 +28,22 @@ public class LLamaSharpController : MonoBehaviour, IController
     private List<ChatSession> _chatSessions = new List<ChatSession>();
     private int _activeSession = 0;
 
-    private string _submittedText = "";
+    public string _submittedText = "";
     private CancellationTokenSource _cts;
+
+
+
     public void Init() { }
 
     public UnityEvent<Emotion> onNewEmotion;
+    public UnityEvent<string> onNewChatText;
+    public UnityEvent<bool> onChangeInputInteract;
 
     async UniTaskVoid Start()
     {
         _cts = new CancellationTokenSource();
         SetInteractable(false);
-        inputController.onEnterPressed.AddListener(() =>
-        {
-            _submittedText = inputController.userText;
-            inputController.RefreshField();
-        });
+        
         Output.text = "User: ";
         // Load a model
         var parameters = new ModelParams(Application.streamingAssetsPath + "/" + ModelPath)
@@ -112,6 +113,7 @@ public class LLamaSharpController : MonoBehaviour, IController
             {
 
                 Output.text += token;
+                onNewChatText?.Invoke(Output.text);
                 tokenText += token;
                 
                 await UniTask.NextFrame();
@@ -201,7 +203,8 @@ public class LLamaSharpController : MonoBehaviour, IController
     private void SetInteractable(bool interactable)
     {
         //Submit.interactable = interactable;
-        inputController.ChangeInteractive(interactable);
+        onChangeInputInteract?.Invoke(interactable);
+        //inputController.ChangeInteractive(interactable);
         //SessionSelector.interactable = interactable;
     }
 

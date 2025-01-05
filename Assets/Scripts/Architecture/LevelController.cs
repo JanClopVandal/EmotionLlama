@@ -20,7 +20,8 @@ public class LevelController : MonoBehaviour, IController
     private LLamaSharpController lLamaSharpController;
     private int score;
 
-    
+    public UnityEvent onLevelWin;
+
     public void Init() {
 
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
@@ -36,21 +37,24 @@ public class LevelController : MonoBehaviour, IController
         if (emotion == currentLevel.levelEmotion)
         {
             score += 1;
-            if(score >= currentLevel.winScore)
-            {
-                score = 0;
-                SignalStream.Get("UiController", "NextLevel").SendSignal();
-                return;
-            }
+            
             currentLevel.sceneViewer.Interact(score);
             if (currentLevel.uiElement != null)
             {
                 var slider = currentLevel.uiElement.GetComponent<Slider>();
                
-                slider.value = (float)score / ((float)currentLevel.winScore-1f);
+                slider.value = (float)score / ((float)currentLevel.winScore);
                
             }
-            
+
+            if (score == currentLevel.winScore)
+            {
+                score = 0;
+                //SignalStream.Get("UiController", "NextLevel").SendSignal();
+                onLevelWin?.Invoke();
+                return;
+            }
+
         }
 
 

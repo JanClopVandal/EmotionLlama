@@ -22,8 +22,7 @@ MonoBehaviour:
     PortId: 2b976a88-33fe-4772-a426-7d317ab56364
     Direction: 0
     Capacity: 1
-    Connections:
-    - 08a1ffce-3e1a-4d5d-bb9a-f98145848c1f
+    Connections: []
     Value: '{"CanGoBack":false}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -48,7 +47,7 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 930.4154, y: -0.000008583069}
+  Position: {x: 937.3439, y: -122.765045}
   OnEnterShowViews:
   - Id:
       Category: MainPages
@@ -89,7 +88,7 @@ MonoBehaviour:
     Capacity: 1
     Connections:
     - 796247c2-cf9d-461e-804f-6a2c30fb4369
-    Value: '{"CanGoBack":false}'
+    Value: '{"CanGoBack":true}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     CanBeDeleted: 0
@@ -100,8 +99,8 @@ MonoBehaviour:
     Direction: 1
     Capacity: 0
     Connections:
-    - 2b976a88-33fe-4772-a426-7d317ab56364
-    Value: '{"Trigger":1,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"None","Name":"None","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"None","Name":"None","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    - 5114cbaf-f871-4078-98d4-0b5d535dee48
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"UiController","Name":"NextLevel","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"UiController","Name":"NextPage","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     CanBeDeleted: 0
@@ -113,7 +112,7 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 707.7001, y: 0}
+  Position: {x: 722.2724, y: -20.000013}
   OnEnterShowViews:
   - Id:
       Category: MainPages
@@ -142,8 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02761efe598a45c98fa1baf4d446c6a7, type: 3}
   m_Name: FigureFlow
   m_EditorClassIdentifier: 
-  EditorPosition: {x: -250, y: 172.5, z: 0}
-  EditorScale: {x: 1.15, y: 1.15, z: 1}
+  EditorPosition: {x: -284, y: 162, z: 0}
+  EditorScale: {x: 0.65751624, y: 0.65751624, z: 1}
   Id: 2d227f1c-8a75-4aed-9c74-ea6c1368ba55
   GraphName: Flow Graph
   GraphDescription: 
@@ -201,6 +200,7 @@ MonoBehaviour:
     Connections:
     - 4a32d238-6ca6-4fee-9ec3-2e28c5d71f04
     - dac7dec5-077d-44b4-ac79-1dd0713ac877
+    - 08a1ffce-3e1a-4d5d-bb9a-f98145848c1f
     Value: '{"CanGoBack":false}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -266,7 +266,7 @@ MonoBehaviour:
     Capacity: 1
     Connections:
     - fb196af5-ca98-485a-afc0-f7384668426f
-    Value: '{"CanGoBack":false}'
+    Value: '{"CanGoBack":true}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.GoBackInputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     CanBeDeleted: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
     Capacity: 0
     Connections:
     - feaaca69-5d2e-41ed-bcf6-a891b798175e
-    Value: '{"Trigger":1,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"UiController","Name":"NextLevel","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"None","Name":"None","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
+    Value: '{"Trigger":2,"TimeDelay":3.0,"SignalPayload":{"StreamId":{"Category":"UiController","Name":"NextLevel","Custom":false},"SignalValueType":0,"IntegerValue":0,"BooleanValue":false,"FloatValue":0.0,"StringValue":"","ColorValue":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"Vector2Value":{"x":0.0,"y":0.0},"Vector3Value":{"x":0.0,"y":0.0,"z":0.0},"Vector4Value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}},"ButtonId":{"Category":"UiController","Name":"NextPage","Custom":false},"ToggleId":{"Category":"None","Name":"None","Custom":false},"CommandToggle":2,"ViewId":{"Category":"None","Name":"None","Custom":false},"CommandShowHide":0}'
     ValueTypeQualifiedName: Doozy.Runtime.UIManager.Nodes.PortData.UIOutputPortData,
       DoozyRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     CanBeDeleted: 0

@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine.Events;
+using System.Collections.Generic;
+
 
 public class InputController : MonoBehaviour
 {
@@ -11,31 +12,35 @@ public class InputController : MonoBehaviour
     [SerializeField] protected bool canBeEmpty = false;
     [SerializeField] protected int messageLenght = 100;
     protected bool isEdit = false;
+    
 
-    public UnityEvent onEnterPressed;
+    public UnityEvent<string> onSendMessage;
 
     #region MonoBehaviour
-    protected void Start()
+    protected virtual void Start()
     {
-        if (inputField != null)
-        {
-            inputField.onValueChanged.AddListener(OnInputFieldChanged);
-            inputField.onEndEdit.AddListener(OnEndEdit);
-            inputField.onSelect.AddListener(onSelect);
-        }
+            if (inputField != null)
+            {
+                inputField.onValueChanged.AddListener(OnInputFieldChanged);
+                inputField.onEndEdit.AddListener(OnEndEdit);
+                inputField.onSelect.AddListener(onSelect);
+            }
+
+        
     }
     protected virtual void OnDestroy()
     {
-        if (inputField != null)
-        {
-            inputField.onValueChanged.RemoveListener(OnInputFieldChanged);
-            inputField.onEndEdit.RemoveListener(OnEndEdit);
-            inputField.onSelect.RemoveListener(onSelect);
-        }
+
+            if (inputField != null)
+            {
+                inputField.onValueChanged.RemoveListener(OnInputFieldChanged);
+                inputField.onEndEdit.RemoveListener(OnEndEdit);
+                inputField.onSelect.RemoveListener(onSelect);
+            }
+        
     }
     protected void Update()
     {
-        // Проверяем, нажата ли клавиша Enter
         EnterClickCheck();
     }
     #endregion
@@ -50,7 +55,9 @@ public class InputController : MonoBehaviour
     {
         
         userText = LimitMessageLength(text, messageLenght);
+
         inputField.text = userText;
+        
     }
     protected virtual void OnEndEdit(string text)
     {
@@ -63,7 +70,7 @@ public class InputController : MonoBehaviour
         {
             if(isEdit && !isFieldEmpty())
             {
-                onEnterPressed?.Invoke();
+                onSendMessage?.Invoke(userText);
             }
         }
     }
@@ -74,11 +81,15 @@ public class InputController : MonoBehaviour
     public virtual void RefreshField()
     {
         userText = null;
-        inputField.text = "";
+
+            inputField.text = "";
+        
     }
     public virtual void ChangeInteractive(bool state)
     {
-        inputField.interactable = state;
+   
+            inputField.interactable = state;
+        
     }
     public virtual bool isFieldEmpty()
     {
