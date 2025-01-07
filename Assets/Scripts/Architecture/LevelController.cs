@@ -21,6 +21,7 @@ public class LevelController : MonoBehaviour, IController
     private int score;
 
     public UnityEvent onLevelWin;
+    public UnityEvent<LevelSettings> onChangeLevelSetting;
 
     public void Init() {
 
@@ -86,6 +87,7 @@ public class LevelController : MonoBehaviour, IController
         }
 
         score = 0;
+        onChangeLevelSetting?.Invoke(currentLevel);
         StartCoroutine(animateScreenState());
         
     }
@@ -125,5 +127,5 @@ public class LevelController : MonoBehaviour, IController
 
 public enum ScreenState
 {
-    menu, info, scoreboard, level01, level02
+    menu, info, level01, level02
 }

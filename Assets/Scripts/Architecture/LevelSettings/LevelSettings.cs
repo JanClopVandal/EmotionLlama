@@ -6,13 +6,14 @@ public class LevelSettings : ScriptableObject
 {
     public ScreenState screenState;
     public GameObject scenePrefab;
-    public GameObject sceneObject;
-    public SceneViewer sceneViewer;
+    [HideInInspector] public GameObject sceneObject;
+    [HideInInspector] public SceneViewer sceneViewer;
     public bool interative;
     public Emotion levelEmotion;
     public int winScore;
     public string uiElementName;
-    public GameObject uiElement;
+    [HideInInspector] public GameObject uiElement;
+    public AudioClip enviromentSound;
 
 
 }

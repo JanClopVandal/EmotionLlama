@@ -46,7 +46,8 @@ public class GameContext : MonoBehaviour
         controllers = new List<IController>
         {
             FindAnyObjectByType<LLamaSharpController>(),
-            FindAnyObjectByType<LevelController>()
+            FindAnyObjectByType<LevelController>(),
+            FindAnyObjectByType<AudioController>()
 
 
         };

@@ -21,3 +21,4 @@ MonoBehaviour:
   winScore: 0
   uiElementName: 
   uiElement: {fileID: 0}
+  enviromentSound: {fileID: 8300000, guid: 9bddba0a8ffa5e74596dc60f667c71f8, type: 3}

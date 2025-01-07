@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a64d1e7ca11cca845ad7d241c7ca9154, type: 3}
-  m_Name: Level02
+  m_Name: Info
   m_EditorClassIdentifier: 
-  screenState: 3
-  scenePrefab: {fileID: 2532186264953662727, guid: e579da2641466f149bc994ef901cb805, type: 3}
+  screenState: 1
+  scenePrefab: {fileID: 847850251862448666, guid: 63a9c2154a293ec48b3fb6d3bf97671e, type: 3}
   sceneObject: {fileID: 0}
   sceneViewer: {fileID: 0}
-  interative: 1
+  interative: 0
   levelEmotion: 0
-  winScore: 3
-  uiElementName: Level02Slider
+  winScore: 0
+  uiElementName: 
   uiElement: {fileID: 0}
-  enviromentSound: {fileID: 8300000, guid: a8983038f5650434c809a6a9999c409f, type: 3}
+  enviromentSound: {fileID: 8300000, guid: 9bddba0a8ffa5e74596dc60f667c71f8, type: 3}
