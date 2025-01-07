@@ -19,6 +19,8 @@ MonoBehaviour:
     - Category: UiController
       Name: Back
     - Category: UiController
+      Name: Close
+    - Category: UiController
       Name: Info
     - Category: UiController
       Name: NextPage

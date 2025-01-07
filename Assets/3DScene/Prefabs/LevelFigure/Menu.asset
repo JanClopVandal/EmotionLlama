@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Menu
   m_EditorClassIdentifier: 
   screenState: 0
-  scenePrefab: {fileID: 4717103847247780972, guid: 87caa434e14530246beb718998874d81, type: 3}
+  scenePrefab: {fileID: 8024235193485948737, guid: d16d6ff0a274e3541aa8a8f55907c711, type: 3}
   sceneObject: {fileID: 0}
   sceneViewer: {fileID: 0}
   interative: 0
   levelEmotion: 0
   winScore: 0
+  uiElementName: 
+  uiElement: {fileID: 0}
