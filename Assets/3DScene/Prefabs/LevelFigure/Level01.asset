@@ -22,3 +22,7 @@ MonoBehaviour:
   uiElementName: Level01Slider
   uiElement: {fileID: 0}
   enviromentSound: {fileID: 8300000, guid: 6cdce6b5cf3890c4abf06a57f5652c74, type: 3}
+  SoundEffects:
+  - {fileID: 8300000, guid: 784333718ca4c4146a972e3a065ea36b, type: 3}
+  - {fileID: 8300000, guid: c5415cc64bd66c945b18871223d3ebe7, type: 3}
+  - {fileID: 8300000, guid: 08cb56b6718d7e84cb7b78e2ada2e82e, type: 3}

@@ -22,7 +22,7 @@ public class LevelController : MonoBehaviour, IController
 
     public UnityEvent onLevelWin;
     public UnityEvent<LevelSettings> onChangeLevelSetting;
-
+    public UnityEvent<LevelSettings> onInteract;
     public void Init() {
 
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
@@ -38,7 +38,7 @@ public class LevelController : MonoBehaviour, IController
         if (emotion == currentLevel.levelEmotion)
         {
             score += 1;
-            
+            onInteract?.Invoke(currentLevel);
             currentLevel.sceneViewer.Interact(score);
             if (currentLevel.uiElement != null)
             {
@@ -84,6 +84,9 @@ public class LevelController : MonoBehaviour, IController
         if (!currentLevel.uiElementName.IsNull())
         {
             currentLevel.uiElement = GameObject.Find(currentLevel.uiElementName);
+            var slider = currentLevel.uiElement.GetComponent<Slider>();
+
+            slider.value = 0;
         }
 
         score = 0;

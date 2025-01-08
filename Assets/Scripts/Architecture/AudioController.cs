@@ -9,12 +9,15 @@ public class AudioController : MonoBehaviour, IController
     [SerializeField] private AudioLowPassFilter audioFilter_Env;
     [SerializeField] private Vector2 filterAnimValue_Env;
     [SerializeField] private float filterTime_Env;
+
+    [SerializeField] private AudioSource audioSource_Shot;
     private LevelController levelController;
 
     public void Init()
     {
         levelController = GameContext.instance.GetControllerByType<LevelController>();
         levelController.onChangeLevelSetting.AddListener(ChangeLevelSetting);
+        levelController.onInteract.AddListener(PlayOneOfEffect); 
     }
 
     public void ChangeLevelSetting(LevelSettings levelSettings)
@@ -34,6 +37,16 @@ public class AudioController : MonoBehaviour, IController
         });
 
 
+    }
+    public void PlayOneOfEffect(LevelSettings levelSettings)
+    {
+        if(levelSettings.SoundEffects !=null)
+        PlayOneShot(levelSettings.SoundEffects[Random.Range(0, levelSettings.SoundEffects.Count)]);
+    }
+    public void PlayOneShot(AudioClip clip)
+    {
+        audioSource_Shot.clip = clip;
+        audioSource_Shot.Play();
     }
 
 }
