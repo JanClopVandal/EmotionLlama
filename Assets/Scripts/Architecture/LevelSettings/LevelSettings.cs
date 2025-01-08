@@ -11,7 +11,8 @@ public class LevelSettings : ScriptableObject
     [HideInInspector] public GameObject sceneObject;
     [HideInInspector] public SceneViewer sceneViewer;
     public bool interative;
-    public Emotion levelEmotion;
+    [HideInInspector] public Emotion levelEmotion;
+    public List<Emotion> levelEmotions;
     public int winScore;
     public string uiElementName;
     [HideInInspector] public GameObject uiElement;

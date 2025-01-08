@@ -19,9 +19,11 @@ public class LevelController : MonoBehaviour, IController
 
     private LLamaSharpController lLamaSharpController;
     private int score;
+    private bool newMessage = true;
 
     public UnityEvent onLevelWin;
     public UnityEvent<LevelSettings> onChangeLevelSetting;
+    public UnityEvent<Emotion> onChangeLevelEmotion;
     public UnityEvent<LevelSettings> onInteract;
     public void Init() {
 
@@ -35,12 +37,12 @@ public class LevelController : MonoBehaviour, IController
 
     public void SetNewEmotion(Emotion emotion)
     {
-        if (emotion == currentLevel.levelEmotion)
+        if (emotion == currentLevel.levelEmotion && newMessage)
         {
             score += 1;
             onInteract?.Invoke(currentLevel);
             currentLevel.sceneViewer.Interact(score);
-            if (currentLevel.uiElement != null)
+            if (currentLevel.interative)
             {
                 var slider = currentLevel.uiElement.GetComponent<Slider>();
                
@@ -55,7 +57,8 @@ public class LevelController : MonoBehaviour, IController
                 onLevelWin?.Invoke();
                 return;
             }
-
+            newMessage = false;
+            ChangeLevelEmotion();
         }
 
 
@@ -81,16 +84,19 @@ public class LevelController : MonoBehaviour, IController
         currentLevel.sceneObject.transform.localScale = Vector3.one;
         
         currentLevel.sceneViewer = currentLevel.sceneObject.GetComponent<SceneViewer>();
-        if (!currentLevel.uiElementName.IsNull())
+        if (currentLevel.interative)
         {
             currentLevel.uiElement = GameObject.Find(currentLevel.uiElementName);
             var slider = currentLevel.uiElement.GetComponent<Slider>();
 
             slider.value = 0;
+            ChangeLevelEmotion();
         }
 
         score = 0;
         onChangeLevelSetting?.Invoke(currentLevel);
+
+        
         StartCoroutine(animateScreenState());
         
     }
@@ -125,7 +131,16 @@ public class LevelController : MonoBehaviour, IController
 
     }
 
+    private void ChangeLevelEmotion()
+    {
+        currentLevel.levelEmotion = currentLevel.levelEmotions[Random.Range(0, currentLevel.levelEmotions.Count)];
+        onChangeLevelEmotion?.Invoke(currentLevel.levelEmotion);
+    }
 
+    public void onNewMessage(string message)
+    {
+        newMessage = true;
+    }
 }
 
 public enum ScreenState

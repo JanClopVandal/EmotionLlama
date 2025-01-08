@@ -48,8 +48,11 @@ public class LLamaSharpController : MonoBehaviour, IController
         // Load a model
         var parameters = new ModelParams(Application.streamingAssetsPath + "/" + ModelPath)
         {
-            ContextSize = 4096,
-           
+            //SeqMax = 10,
+            //BatchSize = 1,
+            //FlashAttention = false,
+            ContextSize = 512,
+            
             GpuLayerCount = 35
         };
         // Switch to the thread pool for long-running operations
@@ -105,8 +108,11 @@ public class LLamaSharpController : MonoBehaviour, IController
                     new ChatHistory.Message(AuthorRole.User, userMessage),
                     new InferenceParams()
                     {
+
+                        AntiPrompts = new List<string> { "User:", "\nUser:", "\n User:" },
+                        MaxTokens = 50,
                         
-                        AntiPrompts = new List<string> { "User:" , "\nUser:", "\n\nUser:" }
+
                     }
                 )
             ))
@@ -218,7 +224,8 @@ public class LLamaSharpController : MonoBehaviour, IController
             
             if (lowerCaseText.Contains(emotion.ToString().ToLower()))
             {
-                onNewEmotion.Invoke(emotion); ;
+                onNewEmotion.Invoke(emotion); 
+                
             }
         }
 

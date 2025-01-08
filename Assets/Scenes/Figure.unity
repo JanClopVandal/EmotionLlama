@@ -190,8 +190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 5.18, y: -271.14}
-  m_SizeDelta: {x: 627.77, y: 487.82}
+  m_AnchoredPosition: {x: 5.18, y: -145.678}
+  m_SizeDelta: {x: 627.77, y: 236.896}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19410020
 MonoBehaviour:
@@ -244,9 +244,9 @@ MonoBehaviour:
   m_fontSize: 30
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 25
-  m_fontSizeMax: 45
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 20
+  m_fontSizeMax: 30
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -2396,8 +2396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 5.18, y: -271.14}
-  m_SizeDelta: {x: 627.77, y: 487.82}
+  m_AnchoredPosition: {x: 5.18, y: -145.678}
+  m_SizeDelta: {x: 627.77, y: 236.896}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &131924684
 MonoBehaviour:
@@ -2450,9 +2450,9 @@ MonoBehaviour:
   m_fontSize: 30
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 25
-  m_fontSizeMax: 45
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 20
+  m_fontSizeMax: 30
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -5072,7 +5072,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 195297751}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1084050243}
+        m_TargetAssemblyTypeName: LogToFile, Assembly-CSharp
+        m_MethodName: SendLogReport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &216040440
 GameObject:
   m_ObjectHideFlags: 0
@@ -7206,6 +7218,7 @@ GameObject:
   - component: {fileID: 270157516}
   - component: {fileID: 270157518}
   - component: {fileID: 270157517}
+  - component: {fileID: 270157519}
   m_Layer: 5
   m_Name: SubTitle
   m_TagString: Untagged
@@ -7332,6 +7345,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270157515}
   m_CullTransparentMesh: 1
+--- !u!114 &270157519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270157515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39984ab0d64aa6545acfe9dee7c969fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &292568735
 GameObject:
   m_ObjectHideFlags: 0
@@ -12093,6 +12118,9 @@ MonoBehaviour:
   onChangeLevelSetting:
     m_PersistentCalls:
       m_Calls: []
+  onChangeLevelEmotion:
+    m_PersistentCalls:
+      m_Calls: []
   onInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -13479,6 +13507,7 @@ Transform:
   - {fileID: 1285349739}
   - {fileID: 731857495}
   - {fileID: 591920014}
+  - {fileID: 1084050242}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937342877
@@ -15816,6 +15845,50 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083286859}
   m_Enabled: 1
+--- !u!1 &1084050241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1084050242}
+  - component: {fileID: 1084050243}
+  m_Layer: 0
+  m_Name: LogToFile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1084050242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084050241}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 909256011}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1084050243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084050241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220ad676d479143468d2609b5c36ecbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1095291355
 GameObject:
   m_ObjectHideFlags: 0
@@ -23725,15 +23798,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelPath: Llama-3.2-1B-Instruct-Q8_0.gguf
   SystemPrompt: "You are an emotion analyzer. Your task is to analyze each user's
-    message and determine the dominant emotion it conveys from the following list:\r\n\r\n-
-    Compassion  \r\n- Joy  \r\n- Love  \r\n- Inspiration  \r\n- Respect  \r\n- Anger 
-    \r\n- Hatred  \r\n- Sadness  \r\n- Envy  \r\n- Fear  \r\n- Surprise  \r\n- Calmness 
-    \r\n- Doubt  \r\n- Interest  \r\n- Anticipation  \r\n\r\nAfter analyzing the
-    message, respond with only one word, which is the name of the dominant emotion
-    from the list above. Do not add any other explanation, sentence, or word. Your
-    output must strictly be one of the emotions listed.\r\n\r\nDo not include any
-    prefixes, suffixes, or extra text such as \"User:\" or \"Response:\". Only output
-    the selected emotion."
+    message and determine the 2\u20133 most dominant emotions it conveys from the
+    following list:\r\n\r\n- Compassion  \r\n- Joy  \r\n- Love  \r\n- Inspiration 
+    \r\n- Respect  \r\n- Anger  \r\n- Hatred  \r\n- Sadness  \r\n- Envy  \r\n- Fear 
+    \r\n- Surprise  \r\n- Calmness  \r\n- Doubt  \r\n- Interest  \r\n- Anticipation 
+    \r\n\r\nYour analysis must be consistent for identical messages. When analyzing
+    the same message multiple times, always return the exact same emotions in the
+    same order. \r\n\r\nAfter analyzing the message, respond with exactly 2 or 3
+    words, which are the names of the most dominant emotions from the list above,
+    separated by commas. Do not add any other explanation, sentence, or word. Your
+    output must strictly consist of 2 or 3 emotions from the list, in order of relevance.\r\n\r\nDo
+    not include any prefixes, suffixes, or extra text. Only output the selected emotions.\r\n"
   Output: {fileID: 19410020}
   OutputToken: {fileID: 0}
   SessionSelector: {fileID: 1244682333}
@@ -24097,135 +24172,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686670934}
   m_CullTransparentMesh: 1
---- !u!1 &1719649343
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1719649345}
-  - component: {fileID: 1719649344}
-  m_Layer: 0
-  m_Name: OneShot06
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1719649344
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719649343}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: db59304a547faa549a767362e084f8ab, type: 3}
-  m_Resource: {fileID: 8300000, guid: db59304a547faa549a767362e084f8ab, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &1719649345
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719649343}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731410539
 GameObject:
   m_ObjectHideFlags: 0
@@ -25904,6 +25850,7 @@ GameObject:
   - component: {fileID: 1880572562}
   - component: {fileID: 1880572564}
   - component: {fileID: 1880572563}
+  - component: {fileID: 1880572565}
   m_Layer: 5
   m_Name: SubTitle
   m_TagString: Untagged
@@ -26030,6 +25977,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880572561}
   m_CullTransparentMesh: 1
+--- !u!114 &1880572565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880572561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39984ab0d64aa6545acfe9dee7c969fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1884424666
 GameObject:
   m_ObjectHideFlags: 0
@@ -27306,7 +27265,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 643.02, y: 58.54}
+  m_SizeDelta: {x: 704.052, y: 58.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962939806
 MonoBehaviour:
@@ -27328,7 +27287,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Express your anger
+  m_text: Make it lose it's temper
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d0b026d6f4d34a4e8c321b8eb3b9824, type: 2}
   m_sharedMaterial: {fileID: -1581512374432468127, guid: 4d0b026d6f4d34a4e8c321b8eb3b9824, type: 2}
@@ -27529,7 +27488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Express your compassion
+  m_text: Calm it down
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d0b026d6f4d34a4e8c321b8eb3b9824, type: 2}
   m_sharedMaterial: {fileID: -1581512374432468127, guid: 4d0b026d6f4d34a4e8c321b8eb3b9824, type: 2}
@@ -32184,4 +32143,3 @@ SceneRoots:
   - {fileID: 1083286863}
   - {fileID: 1948665845}
   - {fileID: 909256011}
-  - {fileID: 1719649345}

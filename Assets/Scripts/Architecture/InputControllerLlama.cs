@@ -22,6 +22,7 @@ public class InputControllerLlama : InputController
 
         levelController = GameContext.instance.GetControllerByType<LevelController>();
         levelController.onLevelWin.AddListener(ChangeFieldToButton);
+        onSendMessage.AddListener(levelController.onNewMessage);
 
     }
     private void OnEnable()

@@ -17,7 +17,8 @@ MonoBehaviour:
   sceneObject: {fileID: 0}
   sceneViewer: {fileID: 0}
   interative: 1
-  levelEmotion: 5
+  levelEmotion: 7
+  levelEmotions: 050000000900000007000000
   winScore: 3
   uiElementName: Level01Slider
   uiElement: {fileID: 0}
