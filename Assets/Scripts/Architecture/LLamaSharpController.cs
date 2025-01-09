@@ -9,6 +9,7 @@ using static LLama.StatefulExecutorBase;
 using System;
 using UnityEngine.Events;
 
+
 public class LLamaSharpController : MonoBehaviour, IController
 {
     public string ModelPath = "models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"; // change it to your own model path
@@ -51,8 +52,8 @@ public class LLamaSharpController : MonoBehaviour, IController
             //SeqMax = 10,
             //BatchSize = 1,
             //FlashAttention = false,
-            ContextSize = 512,
-            
+            ContextSize = 1024,
+            //Seed = 133,
             GpuLayerCount = 35
         };
         // Switch to the thread pool for long-running operations

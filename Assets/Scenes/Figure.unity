@@ -23797,18 +23797,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ModelPath: Llama-3.2-1B-Instruct-Q8_0.gguf
-  SystemPrompt: "You are an emotion analyzer. Your task is to analyze each user's
-    message and determine the 2\u20133 most dominant emotions it conveys from the
-    following list:\r\n\r\n- Compassion  \r\n- Joy  \r\n- Love  \r\n- Inspiration 
-    \r\n- Respect  \r\n- Anger  \r\n- Hatred  \r\n- Sadness  \r\n- Envy  \r\n- Fear 
-    \r\n- Surprise  \r\n- Calmness  \r\n- Doubt  \r\n- Interest  \r\n- Anticipation 
-    \r\n\r\nYour analysis must be consistent for identical messages. When analyzing
-    the same message multiple times, always return the exact same emotions in the
-    same order. \r\n\r\nAfter analyzing the message, respond with exactly 2 or 3
-    words, which are the names of the most dominant emotions from the list above,
-    separated by commas. Do not add any other explanation, sentence, or word. Your
-    output must strictly consist of 2 or 3 emotions from the list, in order of relevance.\r\n\r\nDo
-    not include any prefixes, suffixes, or extra text. Only output the selected emotions.\r\n"
+  SystemPrompt: 'You are an emotion evaluator. I will send you a text that starts
+    with one of the following emotions:
+
+
+    Compassion
+
+    Joy
+
+    Love
+
+    Inspiration
+
+    Respect
+
+    Anger
+
+    Hatred
+
+    Sadness
+
+    Envy
+
+    Fear
+
+    Surprise
+
+    Calmness
+
+    Doubt
+
+    Interest
+
+    Anticipation
+
+    Your
+    task is to determine whether the rest of the text matches the emotion stated
+    at the beginning. If the text matches the emotion, respond with the same emotion.
+    If the text does not match the stated emotion, select the most appropriate emotion
+    from the list above that best fits the content of the text.
+
+
+    Respond with
+    only the name of the emotion, without any additional explanation or text. Do
+    not include prefixes, suffixes, or extra words. Your response must strictly be
+    one of the emotions from the list.'
   Output: {fileID: 19410020}
   OutputToken: {fileID: 0}
   SessionSelector: {fileID: 1244682333}
