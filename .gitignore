@@ -77,3 +77,5 @@ Assets/StreamingAssets/Llama-3.2-1B-Instruct-Q8_0.gguf.meta
 Assets/Packages/cublasLt64_12.dll
 Assets/Packages/LLamaSharp.Backend.Cuda12.Linux.0.19.0/runtimes/linux-x64/native/cuda12/libggml.so
 Assets/Packages/LLamaSharp.Backend.Cuda12.Windows.0.19.0/runtimes/win-x64/native/cuda12/ggml.dll
+Assets/StreamingAssets/phi-2.Q3_K_L.gguf
+Assets/StreamingAssets/phi-2.Q3_K_L.gguf.meta

@@ -53,8 +53,9 @@ public class LLamaSharpController : MonoBehaviour, IController
             //BatchSize = 1,
             //FlashAttention = false,
             ContextSize = 1024,
-            //Seed = 133,
+            Seed = 135,
             GpuLayerCount = 35
+            
         };
         // Switch to the thread pool for long-running operations
         await UniTask.SwitchToThreadPool();
@@ -112,7 +113,8 @@ public class LLamaSharpController : MonoBehaviour, IController
 
                         AntiPrompts = new List<string> { "User:", "\nUser:", "\n User:" },
                         MaxTokens = 50,
-                        
+                        Temperature = 0.1f
+
 
                     }
                 )
