@@ -79,3 +79,4 @@ Assets/Packages/LLamaSharp.Backend.Cuda12.Linux.0.19.0/runtimes/linux-x64/native
 Assets/Packages/LLamaSharp.Backend.Cuda12.Windows.0.19.0/runtimes/win-x64/native/cuda12/ggml.dll
 Assets/StreamingAssets/phi-2.Q3_K_L.gguf
 Assets/StreamingAssets/phi-2.Q3_K_L.gguf.meta
+Assets/Packages
