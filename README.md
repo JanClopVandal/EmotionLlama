@@ -25,6 +25,3 @@ Art direction - Elisabeth Ros
 
 Special thanks - kalectica
 
-## Development process 
-
-![Emotion assets](Assets/ToRadMe/Group 994772.png)    
