@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 using UnityEngine.Events;
-using Doozy.Runtime.Common.Extensions;
 using UnityEngine.UI;
-using Doozy.Runtime;
-using Doozy.Runtime.Signals;
 
 public class LevelController : MonoBehaviour, IController
 {
     [SerializeField] private List<LevelSettings> levelSettings;
     [SerializeField] private Transform parentSceneObject;
-    //[SerializeField] private Slider slider;
+
 
     private LevelSettings currentLevel;
     private LevelSettings prevLevel;
@@ -21,51 +18,33 @@ public class LevelController : MonoBehaviour, IController
     private int score;
     private bool newMessage = true;
 
+    #region Events
     public UnityEvent onLevelWin;
     public UnityEvent<LevelSettings> onChangeLevelSetting;
     public UnityEvent<Emotion> onChangeLevelEmotion;
     public UnityEvent<LevelSettings> onInteract;
-    public void Init() {
+    #endregion
+
+    #region Utility
+    public void Init()
+    {
 
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
         lLamaSharpController.onNewEmotion.AddListener(SetNewEmotion);
-
-
-
     }
-
-
-    public void SetNewEmotion(Emotion emotion)
+    private void ChangeLevelEmotion()
     {
-        if (emotion == currentLevel.levelEmotion && newMessage)
-        {
-            score += 1;
-            onInteract?.Invoke(currentLevel);
-            currentLevel.sceneViewer.Interact(score);
-            if (currentLevel.interative)
-            {
-                var slider = currentLevel.uiElement.GetComponent<Slider>();
-               
-                slider.value = (float)score / ((float)currentLevel.winScore);
-               
-            }
-
-            if (score == currentLevel.winScore)
-            {
-                score = 0;
-                //SignalStream.Get("UiController", "NextLevel").SendSignal();
-                onLevelWin?.Invoke();
-                return;
-            }
-            newMessage = false;
-            ChangeLevelEmotion();
-        }
-
-
+        currentLevel.levelEmotion = currentLevel.levelEmotions[Random.Range(0, currentLevel.levelEmotions.Count)];
+        onChangeLevelEmotion?.Invoke(currentLevel.levelEmotion);
     }
- 
+    public void onNewMessage(string message)
+    {
+        newMessage = true;
+    }
+    #endregion
+    
 
-
+    #region Interact
     public void ChangeScreenState(int index)
     {
         ScreenState state = (ScreenState)index;
@@ -131,16 +110,38 @@ public class LevelController : MonoBehaviour, IController
 
     }
 
-    private void ChangeLevelEmotion()
+    private void SetNewEmotion(Emotion emotion)
     {
-        currentLevel.levelEmotion = currentLevel.levelEmotions[Random.Range(0, currentLevel.levelEmotions.Count)];
-        onChangeLevelEmotion?.Invoke(currentLevel.levelEmotion);
+        if (emotion == currentLevel.levelEmotion && newMessage)
+        {
+            score += 1;
+            onInteract?.Invoke(currentLevel);
+            currentLevel.sceneViewer.Interact(score);
+            if (currentLevel.interative)
+            {
+                var slider = currentLevel.uiElement.GetComponent<Slider>();
+
+                slider.value = (float)score / ((float)currentLevel.winScore);
+
+            }
+
+            if (score == currentLevel.winScore)
+            {
+                score = 0;
+                //SignalStream.Get("UiController", "NextLevel").SendSignal();
+                onLevelWin?.Invoke();
+                return;
+            }
+            newMessage = false;
+            ChangeLevelEmotion();
+        }
+
+
     }
 
-    public void onNewMessage(string message)
-    {
-        newMessage = true;
-    }
+    #endregion
+
+
 }
 
 public enum ScreenState

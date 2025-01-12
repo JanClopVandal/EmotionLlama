@@ -1,13 +1,13 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.Events;
 
 public class ChatOutText : MonoBehaviour
 {
     private LLamaSharpController lLamaSharpController;
     private TextMeshProUGUI tmpText;
 
-    void Start()
+    #region MonoBehaviour
+    private void Start()
     {
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
 
@@ -27,6 +27,14 @@ public class ChatOutText : MonoBehaviour
             Debug.LogError("TextMeshProUGUI component not found on the GameObject.");
         }
     }
+    private void OnDestroy()
+    {
+        if (lLamaSharpController != null)
+        {
+            lLamaSharpController.onNewChatText.RemoveListener(UpdateText);
+        }
+    }
+    #endregion
 
     private void UpdateText(string newText)
     {
@@ -37,14 +45,6 @@ public class ChatOutText : MonoBehaviour
         else
         {
             Debug.LogWarning("TextMeshProUGUI component is null, cannot update text.");
-        }
-    }
-
-    void OnDestroy()
-    {
-        if (lLamaSharpController != null)
-        {
-            lLamaSharpController.onNewChatText.RemoveListener(UpdateText);
         }
     }
 }

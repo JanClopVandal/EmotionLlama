@@ -6,7 +6,9 @@ public class EmotionTitle : MonoBehaviour
     private LevelController levelController;
     private TextMeshProUGUI tmpText;
 
-    void Start()
+    #region MonoBehaviour
+
+    private void Start()
     {
         levelController = GameContext.instance.GetControllerByType<LevelController>();
 
@@ -26,11 +28,22 @@ public class EmotionTitle : MonoBehaviour
             Debug.LogError("TextMeshProUGUI component not found on the GameObject.");
         }
     }
+    private void OnDestroy()
+    {
+        if (levelController != null)
+        {
+            levelController.onChangeLevelEmotion.RemoveListener(UpdateText);
+        }
+    }
+
+    #endregion
+
+    #region TextChange
+
     private void UpdateText(Emotion emotion)
     {
         UpdateText(emotion.ToString());
     }
-
     private void UpdateText(string newText)
     {
         if (tmpText != null)
@@ -44,11 +57,6 @@ public class EmotionTitle : MonoBehaviour
         }
     }
 
-    void OnDestroy()
-    {
-        if (levelController != null)
-        {
-            levelController.onChangeLevelEmotion.RemoveListener(UpdateText);
-        }
-    }
+    #endregion
+
 }

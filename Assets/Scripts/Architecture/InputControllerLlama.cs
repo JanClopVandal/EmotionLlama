@@ -8,10 +8,14 @@ public class InputControllerLlama : InputController
 
     private LLamaSharpController lLamaSharpController;
     private LevelController levelController;
+
+    #region MonoBehaviour
     protected override void Start()
     {
         base.Start();
+
         lLamaSharpController = GameContext.instance.GetControllerByType<LLamaSharpController>();
+
         onSendMessage.AddListener(userText =>
         {
             lLamaSharpController._submittedText = userText;
@@ -22,6 +26,7 @@ public class InputControllerLlama : InputController
 
         levelController = GameContext.instance.GetControllerByType<LevelController>();
         levelController.onLevelWin.AddListener(ChangeFieldToButton);
+
         onSendMessage.AddListener(levelController.onNewMessage);
 
     }
@@ -29,7 +34,9 @@ public class InputControllerLlama : InputController
     {
         ChangeButtonToField();
     }
+    #endregion
 
+    #region view
     private void ChangeFieldToButton()
     {
 
@@ -57,5 +64,5 @@ public class InputControllerLlama : InputController
             fieldAnim.blocksRaycasts = true;
         });
     }
-
+    #endregion
 }

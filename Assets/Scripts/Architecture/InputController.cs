@@ -1,20 +1,18 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
-using System.Collections.Generic;
 
 
 public class InputController : MonoBehaviour
 {
-    public string userText;
     [SerializeField] protected TMP_InputField inputField;
     [SerializeField] protected bool canBeEmpty = false;
     [SerializeField] protected int messageLenght = 100;
     protected bool isEdit = false;
-    
 
-    public UnityEvent<string> onSendMessage;
+    [HideInInspector] public string userText;
+
+    [HideInInspector] public UnityEvent<string> onSendMessage;
 
     #region MonoBehaviour
     protected virtual void Start()
@@ -114,7 +112,5 @@ public class InputController : MonoBehaviour
     }
 
     #endregion
-
-
 
 }

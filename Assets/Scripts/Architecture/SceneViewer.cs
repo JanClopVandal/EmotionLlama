@@ -1,8 +1,7 @@
-using Doozy.Runtime.Reactor.Animators;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
-using System;
+
 
 public class SceneViewer : MonoBehaviour
 {
@@ -10,12 +9,13 @@ public class SceneViewer : MonoBehaviour
     [SerializeField] private AppearanceType appearanceType;
     [SerializeField] private Animator animator;
 
-    public UnityEvent onAnimEnd;
-    public UnityEvent onShowEnd;
-    public UnityEvent onHideEnd;
+    #region Events
+    [HideInInspector] public UnityEvent onAnimEnd;
+    [HideInInspector] public UnityEvent onShowEnd;
+    [HideInInspector] public UnityEvent onHideEnd;
+    #endregion
 
-
-
+    #region Interact
     public virtual void Show()
     {
         switch (appearanceType)
@@ -33,7 +33,6 @@ public class SceneViewer : MonoBehaviour
         }
 
     }
-    
     public virtual void Hide()
     {
         switch (appearanceType)
@@ -49,7 +48,6 @@ public class SceneViewer : MonoBehaviour
         
 
     }
-
     public void Interact(int numState)
     {
         switch (appearanceType)
@@ -63,8 +61,10 @@ public class SceneViewer : MonoBehaviour
 
         }
     }
+    #endregion
 
-    public void PlayAnimation(string triggerName)
+    #region Animation
+    private void PlayAnimation(string triggerName)
     {
         PlayAnimation(triggerName, null);
     }
@@ -79,7 +79,7 @@ public class SceneViewer : MonoBehaviour
 
         StartCoroutine(WaitForAnimationEnd(triggerName, onAnimationEnd));
     }
-
+    
     private IEnumerator WaitForAnimationEnd(string triggerName, UnityEvent onAnimationEnd)
     {
         AnimatorStateInfo animationState;
@@ -93,6 +93,7 @@ public class SceneViewer : MonoBehaviour
         onAnimationEnd?.Invoke();
         Debug.Log($"Animation with trigger '{triggerName}' finished!");
     }
+    #endregion
 }
 
 

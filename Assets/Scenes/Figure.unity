@@ -7265,11 +7265,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aggression is a strong, hostile emotion driven by anger, frustration, or
-    the need to assert control, often leading to confrontational behavior.
+  m_text: 'Aggression is a strong, hostile '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d50365581745e9c4cb66e952e94beb50, type: 2}
-  m_sharedMaterial: {fileID: -4226419752615562012, guid: d50365581745e9c4cb66e952e94beb50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 32e540d9eedae5b468f24ab06b2e23f2, type: 2}
+  m_sharedMaterial: {fileID: -6311387978887680311, guid: 32e540d9eedae5b468f24ab06b2e23f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7293,8 +7292,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -26133,11 +26132,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Compassion is a deep, empathetic emotion that drives a desire to help others
-    in pain or distress, fostering connection and care.
+  m_text: Compassion is a deep
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d50365581745e9c4cb66e952e94beb50, type: 2}
-  m_sharedMaterial: {fileID: -4226419752615562012, guid: d50365581745e9c4cb66e952e94beb50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 32e540d9eedae5b468f24ab06b2e23f2, type: 2}
+  m_sharedMaterial: {fileID: -6311387978887680311, guid: 32e540d9eedae5b468f24ab06b2e23f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26161,8 +26159,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

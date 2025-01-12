@@ -12,17 +12,13 @@ using UnityEngine.Events;
 
 public class LLamaSharpController : MonoBehaviour, IController
 {
-    public string ModelPath = "models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"; // change it to your own model path
+
+    public string ModelPath;
     [TextArea(3, 10)]
     public string SystemPrompt;
     public TMP_Text Output;
     public TMP_Text OutputToken;
-    //public TMP_InputField Input;
     public TMP_Dropdown SessionSelector;
-    //public InputController inputController;
-    //public Button Submit;
-
-    public VFXController vFXController;
 
     private ExecutorBaseState _emptyState;
     private List<ExecutorBaseState> _executorStates = new List<ExecutorBaseState>();
