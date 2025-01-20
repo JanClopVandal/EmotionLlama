@@ -47,7 +47,9 @@ public class GameContext : MonoBehaviour
         {
             FindAnyObjectByType<LLamaSharpController>(),
             FindAnyObjectByType<LevelController>(),
-            FindAnyObjectByType<AudioController>()
+            FindAnyObjectByType<AudioController>(),
+            FindAnyObjectByType<UIAnimator>(),
+            FindAnyObjectByType<UIController>()
 
 
         };

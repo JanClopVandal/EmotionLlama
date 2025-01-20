@@ -146,5 +146,5 @@ public class LevelController : MonoBehaviour, IController
 
 public enum ScreenState
 {
-    menu, info, level01, level02
+    menu, info, level01, level02, level
 }
