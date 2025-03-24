@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9a295bd7654224bd6ae2cb85e425bd07
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19328
+  packageName: Sound Filters and Effects
+  packageVersion: 2
+  assetPath: Assets/Complete Sound Suite/Sound Effect/SEF_biquad.cs
+  uploadId: 261115

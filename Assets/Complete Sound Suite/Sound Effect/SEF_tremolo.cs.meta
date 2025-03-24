@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5910b9f1415f046f3acca58acc441433
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19328
+  packageName: Sound Filters and Effects
+  packageVersion: 2
+  assetPath: Assets/Complete Sound Suite/Sound Effect/SEF_tremolo.cs
+  uploadId: 261115

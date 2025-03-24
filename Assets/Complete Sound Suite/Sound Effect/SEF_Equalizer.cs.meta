@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: afb1fae0069ac47bf92e2b60abbd07fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 19328
+  packageName: Sound Filters and Effects
+  packageVersion: 2
+  assetPath: Assets/Complete Sound Suite/Sound Effect/SEF_Equalizer.cs
+  uploadId: 261115
