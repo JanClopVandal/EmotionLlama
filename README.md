@@ -25,3 +25,17 @@ Art direction - Elisabeth Ros
 
 Special thanks - kalectica
 
+
+
+## WIP
+### First test 
+![firs_test](https://github.com/JanClopVandal/EmotionLlama/blob/main/Assets/ToReadMe/Group%20994772.png)
+
+### Visual Reference 
+![visual](https://github.com/JanClopVandal/EmotionLlama/blob/main/Assets/ToReadMe/image%20731.png)
+
+### Architecture
+![arch](https://github.com/JanClopVandal/EmotionLlama/blob/main/Assets/ToReadMe/Group%20994773.png)
+
+### Sound
+![Sound](https://github.com/JanClopVandal/EmotionLlama/blob/main/Assets/ToReadMe/image%20733.png)
